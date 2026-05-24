@@ -19,6 +19,16 @@ SnapExplain is a lightweight, single-page web app that uses **Xiaomi MiMo V2.5**
 
 ---
 
+## 🔄 Workflow
+
+1. **Upload an image** — drag & drop, click to browse, or paste from clipboard (`Ctrl+V`)
+2. **Choose a mode** — pick from a preset (Explain, Read Text, Analyze Chart, Translate, Code Review, Roast It) or write a custom question
+3. **Analyze** — hit the button; the response streams in real time via server-sent events
+4. **Follow up** — ask follow-up questions about the same image; the full conversation history (up to 5 turns) is sent with each request so MiMo retains context
+5. **Copy or continue** — copy the response to clipboard or keep chatting
+
+---
+
 ## 🚀 Setup
 
 ### 1. Clone & Install
